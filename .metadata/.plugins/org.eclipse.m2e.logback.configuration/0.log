@@ -1,0 +1,162 @@
+2019-02-24 12:25:06,046 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-02-24 12:29:39,589 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\pom.xml
+2019-02-24 12:29:43,664 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: alberto:mongo:0.0.1-SNAPSHOT @ C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\pom.xml.
+2019-02-24 12:29:45,975 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mongo/src/main/java
+2019-02-24 12:29:45,980 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mongo/src/test/java
+2019-02-24 12:29:46,835 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2019-02-24 12:29:47,655 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:29:47,655 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:29:47,658 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:29:47,658 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:30:43,583 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-02-24 12:30:47,791 [Worker-8: Launching mongo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo
+2019-02-24 12:30:47,792 [Worker-8: Launching mongo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2019-02-24 12:30:48,351 [Worker-6: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: alberto:mongo:0.0.1-SNAPSHOT @ C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\pom.xml.
+2019-02-24 12:30:48,640 [Worker-6: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.9.1/mongo-java-driver-3.9.1.pom
+2019-02-24 12:30:48,649 [Worker-6: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.9.1/mongo-java-driver-3.9.1.pom
+2019-02-24 12:30:48,665 [Worker-6: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/lgooddatepicker/LGoodDatePicker/10.3.1/LGoodDatePicker-10.3.1.pom
+2019-02-24 12:30:48,671 [Worker-6: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/lgooddatepicker/LGoodDatePicker/10.3.1/LGoodDatePicker-10.3.1.pom
+2019-02-24 12:30:48,709 [Worker-6: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.9.1/mongo-java-driver-3.9.1.jar
+2019-02-24 12:30:48,926 [Worker-6: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.9.1/mongo-java-driver-3.9.1.jar
+2019-02-24 12:30:48,938 [Worker-6: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/lgooddatepicker/LGoodDatePicker/10.3.1/LGoodDatePicker-10.3.1.jar
+2019-02-24 12:30:49,075 [Worker-6: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/lgooddatepicker/LGoodDatePicker/10.3.1/LGoodDatePicker-10.3.1.jar
+2019-02-24 12:30:49,814 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:30:49,815 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:30:49,817 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:30:49,817 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:30:50,759 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.9.1/mongo-java-driver-3.9.1-sources.jar
+2019-02-24 12:30:50,896 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.9.1/mongo-java-driver-3.9.1-sources.jar
+2019-02-24 12:30:51,190 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mongodb:mongo-java-driver:3.9.1
+2019-02-24 12:30:51,520 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/lgooddatepicker/LGoodDatePicker/10.3.1/LGoodDatePicker-10.3.1-sources.jar
+2019-02-24 12:30:51,557 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/lgooddatepicker/LGoodDatePicker/10.3.1/LGoodDatePicker-10.3.1-sources.jar
+2019-02-24 12:30:51,655 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.lgooddatepicker:LGoodDatePicker:10.3.1
+2019-02-24 12:30:53,044 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:30:53,045 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:30:53,046 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:30:53,047 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:31:45,568 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:31:45,568 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:31:45,569 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:31:45,570 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:31:59,743 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:31:59,744 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:31:59,745 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:31:59,745 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:32:12,025 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:32:12,026 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:32:12,027 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:32:12,027 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:34:07,346 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:34:07,346 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:34:07,348 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:34:07,348 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:35:34,880 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:35:34,880 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:35:34,882 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:35:34,882 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:35:47,994 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:35:47,994 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:35:47,996 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:35:47,996 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:35:50,727 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:35:50,727 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:35:50,728 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:35:50,729 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:39:42,358 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:39:42,359 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:39:42,360 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:39:42,360 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:39:46,555 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:39:46,555 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:39:46,556 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:39:46,557 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:46:32,009 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:46:32,009 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:46:32,011 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:46:32,011 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:52:50,876 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:52:50,877 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:52:50,879 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:52:50,879 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:53:51,615 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:53:51,615 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:53:51,616 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:53:51,616 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:54:06,434 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:54:06,435 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:54:06,437 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:54:06,438 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:54:36,415 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:54:36,416 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:54:36,417 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:54:36,418 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:54:55,227 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:54:55,227 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:54:55,229 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:54:55,229 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:57:16,963 [Worker-23: Launching mongo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo
+2019-02-24 12:57:16,964 [Worker-23: Launching mongo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2019-02-24 12:57:17,094 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:57:17,094 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:57:17,095 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:57:17,095 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 12:57:43,708 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:57:43,708 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 12:57:43,709 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 12:57:43,709 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 13:03:36,771 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:03:36,771 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 13:03:36,772 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:03:36,772 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 13:08:43,442 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:08:43,442 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 13:08:43,443 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:08:43,444 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 13:09:29,196 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:09:29,196 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 13:09:29,197 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:09:29,198 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 13:09:39,110 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:09:39,110 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 13:09:39,111 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:09:39,112 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 13:10:03,271 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:10:03,271 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 13:10:03,272 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:10:03,272 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 13:10:25,558 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:10:25,558 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 13:10:25,559 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:10:25,560 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 13:10:31,264 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:10:31,265 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 13:10:31,266 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:10:31,266 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 13:46:15,480 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:46:15,480 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 13:46:15,480 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:46:15,480 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 13:50:52,915 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:50:52,915 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 13:50:52,915 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 13:50:52,915 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 14:00:07,370 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 14:00:07,370 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 14:00:07,370 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 14:00:07,370 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 14:00:26,326 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 14:00:26,326 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 14:00:26,331 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 14:00:26,331 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 14:01:11,485 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 14:01:11,485 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 14:01:11,485 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 14:01:11,485 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 14:01:24,075 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 14:01:24,075 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 14:01:24,075 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 14:01:24,075 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources
+2019-02-24 14:01:39,627 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 14:01:39,627 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\main\resources
+2019-02-24 14:01:39,627 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 14:01:39,627 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alberto\Desktop\Nueva carpeta\Trabajo Mongo\mongo\src\test\resources

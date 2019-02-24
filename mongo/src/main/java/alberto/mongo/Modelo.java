@@ -1,0 +1,68 @@
+package alberto.mongo;
+
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+import static com.mongodb.client.model.Filters.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JEditorPane;
+
+import org.bson.Document;
+
+import objetos.Autor;
+import objetos.Juego;
+
+public class Modelo {
+	private MongoClient cliente;
+	private MongoDatabase db;
+
+	public Modelo() {
+		conectar();
+	}
+
+	private void conectar() {
+		db = cliente.getDatabase("JUEGOS");
+
+	}
+
+	private void desconectar() {
+		cliente.close();
+	}
+
+	public void modificar(Juego juego) {
+		MongoCollection<Juego> coleccionJuegos = db.getCollection("juego", Juego.class);
+		coleccionJuegos.replaceOne(eq("_id", juego.getId()), juego);
+	}
+
+	public void eliminar(Juego juego) {
+		MongoCollection<Juego> coleccionJuego = db.getCollection("juego", Juego.class);
+		coleccionJuego.deleteOne(eq("_id", juego.getId()));
+	}
+
+	public void anadir(Juego juego) {
+		Document documento=new Document()
+				.append("nombre", juego.getNombre())
+				.append("genero",juego.getGenero())
+				.append("autor", juego.getAutores());
+		db.getCollection("juego").insertOne(documento);
+		
+		Autor autor=juego.getAutores();
+		autor.getJuegos().add(juego);
+		
+		db.getCollection("autores").updateOne(new Document("_id",juego.getAutores()),
+				new Document("$set",new Document("juegos",autor.getJuegos())));
+	}
+	
+	public List<Juego>getJuegos(){
+		MongoCollection<Juego>coleccionJuegos=db.getCollection("juegos",Juego.class);
+		return coleccionJuegos.find().into(new ArrayList<Juego>());
+	}
+	
+	public List<Autor> getAutor(){
+		MongoCollection<Autor>coleccion=db.getCollection("autor",Autor.class);
+		return coleccion.find().into(new ArrayList<Autor>());
+	}
+}

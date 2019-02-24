@@ -1,0 +1,124 @@
+package Componentes;
+
+import java.awt.BorderLayout;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.util.List;
+
+import javax.swing.DefaultListModel;
+import javax.swing.JList;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextField;
+
+/**
+ * Panel de listado y búsqueda de elementos de la aplicación
+ */
+public class PanelBusqueda<T> extends JPanel implements KeyListener, MouseListener {
+	public JTextField tfBusqueda;
+	public JScrollPane scrollPane;
+	public JList<T> lista;
+	public DefaultListModel<T> modeloLista;
+
+	private List<T> datos;
+
+	public PanelBusqueda() {
+		setLayout(new BorderLayout(0, 0));
+
+		tfBusqueda = new JTextField();
+		add(tfBusqueda, BorderLayout.SOUTH);
+		tfBusqueda.setColumns(10);
+
+		scrollPane = new JScrollPane();
+		add(scrollPane, BorderLayout.CENTER);
+
+		lista = new JList<>();
+		scrollPane.setViewportView(lista);
+		modeloLista = new DefaultListModel<>();
+		lista.setModel(modeloLista);
+
+		inicializar();
+	}
+
+	private void inicializar() {
+		tfBusqueda.addKeyListener(this);
+	}
+
+	public void listar(List<T> datos) {
+		if (datos == null)
+			return;
+
+		limpiar();
+		for (T dato : datos)
+			modeloLista.addElement(dato);
+	}
+
+	public void anadir(T dato) {
+		modeloLista.addElement(dato);
+	}
+
+	public void limpiar() {
+		modeloLista.removeAllElements();
+	}
+
+	public T getSeleccionado() {
+		return lista.getSelectedValue();
+	}
+
+	public boolean estaSeleccionado() {
+		return lista.getSelectedIndex() != -1;
+	}
+
+	private void buscar() {
+
+	}
+
+	public void addListener(MouseListener listener) {
+		lista.addMouseListener(listener);
+	}
+
+	public void keyTyped(KeyEvent e) {
+
+	}
+
+	public void keyPressed(KeyEvent e) {
+
+	}
+
+	public void keyReleased(KeyEvent e) {
+		if (tfBusqueda.getText().length() < 3)
+			return;
+
+		if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+			buscar();
+		}
+	}
+
+	public void mouseClicked(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void mouseEntered(MouseEvent arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void mouseExited(MouseEvent e) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void mousePressed(MouseEvent e) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void mouseReleased(MouseEvent e) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package objetos;
+import java.util.List;
+import java.util.Set;
+
+
+
+
+
+
+
+public class Autor implements Comparable {
+
+	int id;
+	String nombre;
+	String especialidad;
+	Set<Juego> juegos;
+	
+
+	
+
+}
